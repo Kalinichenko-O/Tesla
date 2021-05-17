@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 60px 0 43px;
+    
+}
+.menu_1,.menu_2{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu_2 .menu__item{
+    margin: 0 30px;
+}
+.menu__item{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px transparent solid;
+    transition: 0.2s;
+}
+.menu__item:hover, .menu__item active{
+    border-bottom: 2px #E51937 solid;
+    color: #E51937;
+}
+.item1{
+    margin-right: 63px;
+}
+.item2{
+    margin-right: 25px;
+}
+.item3{
+    margin-right: 44px;
+}
+.item4{
+    margin-right: 46px;
+}
+.tesla_title{
+    text-align: center;
+    background-image: url("../img/Tesla-logo-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 594px;
+    margin-bottom: 26px;
+}
+.tesla_title h1{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 110px;
+    color: #000000;
+}
+.tesla_title p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
